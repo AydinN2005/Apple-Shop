@@ -1,0 +1,28 @@
+{
+  "name": "appleshop2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@iconify/vue": "^3.2.0",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13",
+    "vue-agile": "^2.0.0",
+    "vue-carousel": "^0.18.0",
+    "vue-colorful-slider": "^1.0.1",
+    "vue-glide-js": "^1.3.14",
+    "vue-l-carousel": "^1.1.0",
+    "vue-lory": "^0.0.5",
+    "vue-router": "^4.0.3",
+    "vue3-carousel": "^0.1.38",
+    "vueperslides": "^3.3.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}
