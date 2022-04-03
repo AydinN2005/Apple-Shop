@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <MenuComp />
     <div>
       <router-view />
@@ -19,7 +19,20 @@ export default {
 };
 </script>
 <style>
-*{
+* {
   box-sizing: border-box;
+}
+.container {
+  animation-name: loead;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes loead {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 </style>

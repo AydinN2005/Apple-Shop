@@ -11,7 +11,7 @@
         <router-link to="/ipad" class="item">ipad</router-link>
         <router-link to="/watch" class="item">watch</router-link>
         <router-link to="/tv" class="item">TV & Home</router-link>
-        <router-link to="/airpods" class="item">AirPods</router-link>
+        <router-link :to="{name : 'airpodpage' }" class="item">AirPods</router-link>
         <li class="item search" @click="searchflaghandler">
           <Icon class="icon" icon="mdi:magnify" />
         </li>
