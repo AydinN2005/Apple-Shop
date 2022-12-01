@@ -7,7 +7,7 @@
         <router-link to="/iphone" class="link">iphone</router-link>
         <router-link to="/ipad" class="link">ipad</router-link>
         <router-link to="/tv" class="link">TV & Home</router-link>
-        <router-link to="/airpods" class="link">airpod</router-link>
+        <router-link to="/airpod" class="link">airpod</router-link>
       </div>
       <div class="container">
         <h4 class="title">Account</h4>

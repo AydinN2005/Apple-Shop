@@ -114,11 +114,11 @@
 
 <script>
 export default {
-  mounted() {
-    window.addEventListener("scroll", this.onScroll);
-  },
   beforeMount() {
     window.removeEventListener("scroll", this.onScroll);
+  },
+  mounted() {
+    window.addEventListener("scroll", this.onScroll);
   },
   name: "MainComp",
   data() {
